@@ -6,8 +6,10 @@
 </head>
 <body>
     <?php
-    date_default_timezone_set("Asia/Tokyo");
-    print('現在は、' . date('G時 i分 s秒') . 'です');
+    echo ('test');
+    print 'test';
+    echo "price", (300*1.08),"yen";
+    print ('Test');
     ?>
 </body>
 </html>
